@@ -13,7 +13,8 @@ links = {
 @app.route("/tactical_investor_week")
 def tactical_investor_week():
     today = datetime.today().strftime('%Y-%m-%d')  # Fecha actual
-    url = links.get(today, "https://youtube.com")  # Si no está en el diccionario, redirige a YouTube genérico
+    url = links.get(today, links["2025-08-12"])
+  # Si no está en el diccionario, redirige a YouTube genérico
     return redirect(url)
 
 if __name__ == "__main__":
