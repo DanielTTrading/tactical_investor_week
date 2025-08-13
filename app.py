@@ -7,7 +7,7 @@ app = Flask(__name__)
 # Diccionario con enlaces por fecha exacta (YYYY-MM-DD)
 links = {
     "2025-08-12": "https://youtube.com/live/nQwSyDg0rFA?feature=share",  # 12 de agosto 2025
-    "2025-08-13": "https://youtube.com/live/dMv3Io7ju_o?feature=share",  # 13 de agosto 2025
+    "2025-08-13": "https://youtube.com/live/nQwSyDg0rFA?feature=share",  # 13 de agosto 2025
     "2025-08-14": "https://youtube.com/live/nBpGc4Q_NVQ?feature=share"   # 14 de agosto 2025
 }
 
